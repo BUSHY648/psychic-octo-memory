@@ -1,4 +1,3 @@
-//139.162.212.66
 require('colors')
 const { default: axios } = require('axios')
 const config = require('./config.json')
