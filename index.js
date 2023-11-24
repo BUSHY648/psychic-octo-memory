@@ -4,7 +4,7 @@ const config = require('./config.json')
 const prompt = require('./modules/prompt')
 const WebSocket = require('ws')
 const uuid = require('uuid')
-const account = require('./modules/createAccount')
+const account = require('./modules/account')
 const MessageBuilder = require('./modules/messageBuilder')
 
 async function start() {
