@@ -53,6 +53,4 @@ class Messages {
         console.log(this.messages.join('\n'))
     }
 }
-//person1#1663 786
-//person2#2242
 module.exports = { Messages }
