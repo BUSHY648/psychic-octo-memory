@@ -5,7 +5,6 @@ const config = require('../config.json')
 const { encrypt, keyGen } = require('./encrypt')
 const fs = require('fs')
 
-//heya#1799
 async function account() {
     return new Promise(async (res, rej) => {
         async function start() {
